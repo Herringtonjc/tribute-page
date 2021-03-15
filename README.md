@@ -1,1 +1,1 @@
-# tribute-page
+A project to build a tribute page to any person you like following [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)

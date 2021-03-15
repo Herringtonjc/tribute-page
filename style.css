@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+html {
+    /* Setting base font size for rem calculations */
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
+    line-height: 2;
+    color: rgb(25, 25, 25);
+    text-align: center;
+    background-color: rgb(255, 202, 133);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+@media (max-width: 330px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto 1rem auto;
+    list-style: circle;
+    background-color: rgb(256, 256, 256);
+}
+
+li {
+    margin: 1.2rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 68, 150);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(0, 68, 150);
+}
